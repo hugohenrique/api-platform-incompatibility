@@ -1,0 +1,10 @@
+'Domain\Authentication\User':
+    attributes:
+        normalization_context:
+            groups: ['read']
+    itemOperations:
+        get:
+            method: 'GET'
+    collectionOperations:
+        get:
+            method: 'GET'
